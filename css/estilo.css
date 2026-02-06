@@ -1,0 +1,117 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 1366px;
+    height: 150px;
+    background-image: url(../imgs/otro.jpg);
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+}
+header img{
+    height: 95%;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    /*background-color: rgb(226, 255, 175);*/
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+    margin: 0 auto;
+}
+nav a{
+    font-family: "Indie Flower", cursive;
+    color: rgba(226, 38, 204, 0.738);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+    font-size: large;
+
+}
+nav a:hover{
+    /*background-color: rgb(167, 152, 255);*/
+    transform: scale(1.2);
+    
+}
+
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: rgba(248, 241, 154, 0.897);
+    margin: 0 auto;
+}
+main a{
+    color: rgba(226, 38, 204, 0.738);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+
+}
+.personaje{
+    width: 1300px;
+    height: 400px;
+    /*background-color: antiquewhite;*/
+    margin-left: 33px;
+    margin-top: 80px;
+    display: inline-block;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    /*background-color: rgb(141, 235, 52);*/
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    
+}
+.foto img{
+    height: 100%;
+
+
+}
+.info{
+    width: 800px;
+    height: 400px;
+    background-color: rgba(182, 220, 255, 0.736);
+    margin-left: 33px;
+    padding: 30px;
+}
+.info h3{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+h3{
+    color: blue;
+    font-family: "Indie Flower", cursive;
+}
+p{
+    color: rgb(16, 1, 73);
+}
+footer{
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(46, 24, 156);
+    margin: 0 auto;
+    
+}
+footer a{
+    color: rgba(255, 218, 30, 0.738);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+
+}
